@@ -33,9 +33,10 @@ a list with no more than a single entry are filtered and the result is collected
 `AnagramPrinter` prints all anagrams from different keys on separate line, each anagram separated by a whitespace. I have used a stream here as well for better
 performance and readability. 
 
-I have also written tests for `AnagramFinder` and `WordReader` using JUnit5. I have two tests to check findAnagrams `AnagramFinder` from a sample list where one test
-contains a word in uppercase. I have used the Assertions class from JUnit for the tests. `WordReaderTest`tests reading words from a sample file which is located
-in the `resources` folder in the `test` package. Reading words from a list is also tested, as well with leading and trailing whitespaces. 
+I have also written tests for `AnagramFinder` and `WordReader` using JUnit5. I have included the `maven-surefire-plugin` to run my tests via maven. I have two tests 
+to check findAnagrams `AnagramFinder` from a sample list where one test contains a word in uppercase. I have used the Assertions class from JUnit for the tests. 
+`WordReaderTest`tests reading words from a sample file which is located in the `resources` folder in the `test` package. Reading words from a list is also tested, 
+as well with leading and trailing whitespaces. 
 
 
 
